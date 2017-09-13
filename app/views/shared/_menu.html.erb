@@ -8,5 +8,5 @@
   <p> Signed in as <%= current_user.name %> | <%= link_to "logout", destroy_user_session_path, method: :delete %> </p>
 <% end %>
 <ul>
-  <li><%= link_to 'Home', "#" %></li>
+  <li><%= link_to 'Home', root_path %></li>
 </ul>
